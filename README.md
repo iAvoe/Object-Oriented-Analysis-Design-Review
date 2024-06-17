@@ -12,7 +12,7 @@ A planned undertaking / endeavor that has a beginning and end, and produces end 
 
 To better manage a project by making things / activities clear and consistent.
 
-In 6 Core processes:
+The 6 SDLC Core processes:
 
 1. **Identify** the problem or need
 2. **Plan** and monitor the project
@@ -64,11 +64,11 @@ A project consists of many mini-projects, with each core components follow their
 - In contrast, Agile is a customer-focused approach that emphasizes flexibility and collaboration
 
 #### 5 core processes in every iteration:
-- **Step 1 - Planning & Requirements:** In this stage, map out the initial requirements, gather the related documents, and create a plan and timeline for the first iterative cycle.
-- **Step 2 - Analysis & Design:** Finalize the business needs, database models, and technical requirements based on the plan. Create a working architecture, schematic, or algorithm that satisfies your requirements.
-- **Step 3 - Implementation:** Develop the functionality and design required to meet the specifications.
-- **Step 4 - Testing:** Identify and locate what’s not working or performing to expectations. Stakeholders, users, and product testers weigh in with their experience.
-- **Step 5 - Evaluation & Review:** Compare this iteration with the requirements and expectations.
+- **Step 1 - Planning & Requirements:** In this stage, map out the initial requirements, gather the related documents, and create a plan and timeline for the first iterative cycle
+- **Step 2 - Analysis & Design:** Finalize the business needs, database models, and technical requirements based on the plan. Create a working architecture, schematic, or algorithm that satisfies your requirements
+- **Step 3 - Implementation:** Develop the functionality and design required to meet the specifications
+- **Step 4 - Testing:** Identify and locate what’s not working or performing to expectations
+- **Step 5 - Evaluation & Review:** Compare this iteration with the requirements and expectations
 
 ### Waterfall / V-Model
 
@@ -117,7 +117,16 @@ During the requirements definition stage of developing an information system, th
 Dentoin Pharmaceuticals requires an information system to support its new assembly line. The management has assigned a team of ten members to plan this project. Which of the following will be the first major task for this team?
 - Defining the system goals and scope
 
+-----
+
 ### SDLC Core proceses
+
+Core Process 3 involves defining in great detail what the information system needs to accomplish in order to provide the organization with the desired benefits.​
+- True, analyze
+
+Which two of the following are activities of Core Process 3? (choose two)​
+- ​Gather detailed information
+- Develop user-interface dialogs
 
 What is the single activity that usually requires the most time during a project?
 - Programming
@@ -195,6 +204,8 @@ Tasks in the ________ phase of the systems development life cycle (SDLC) are to 
 The work done during ________ phase is either to fix the system so that it works correctly or to adapt it to changes in requirements.
 - 6B, Maintainance
 
+-----
+
 ### Diagrams
 
 #### Workflow diagram
@@ -259,6 +270,8 @@ A package diagram is useful to document the various subsystems in a system.
 A diagram that shows the overall structure of a system as it exists after it is deployed is called what?
 software components diagram
 
+-----
+
 ### Agile, iterative & waterfall
 
 Agile development refers to the flexibility that programmers have
@@ -287,6 +300,8 @@ What is usually the end result of an iteration?
 What is the purpose of an iteration recap?
 - To review the project processes
 
+-----
+
 ### System Design
 
 An information system consists of:
@@ -306,6 +321,8 @@ When a system is partitioned into pieces, each piece is referred to as a:
 
 Systems analysis means understanding and specifying in detail what the information system should accomplish.
 - True
+
+-----
 
 ## Others
 
@@ -334,7 +351,9 @@ The components of an information system are the computer hardware, the computer 
 Today the nature and types of jobs for information system graduates is more varied than ever before.
 - True
 
-# Types of systems
+-----
+
+## Types of systems
 
 A(n) ____ includes hardware, software, inputs, outputs, data, people, and procedures.
 - Information system
@@ -365,6 +384,8 @@ Understanding the way an organization performs its procedures is what kind of sk
 
 Highly integrated systems that support company-wide operations and data, often combining aspects of many other systems is a(n) ____.
 - Enterprise resource planning application
+
+-----
 
 # Module 12:
 
