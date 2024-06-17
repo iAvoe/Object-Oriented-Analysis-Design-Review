@@ -1,204 +1,104 @@
 # Object-Oriented-Analysis-Design-Review
 
-## Development types
-An information system development process that emphasizes flexibility to embrace change is called:.
-- Agile development
+## System development
 
-Systems development is always a formal activity with a beginning & an end.
-- false
+A project to develop a new information system
 
-Agile Development refers to the flexibility that programmers have in taking on various assignments.
-- false
+### Project
 
-Iterative development is the same as Agile development.
-- false
+A planned undertaking / endeavor that has a beginning and end, and produces end results
 
-In iterative development the system is grown organically.
-- true
+### System development life cycle (SDLC)
 
-In iterative development, an iteration usually lasts about six weeks.
-- false
+To better manage a project by making things / activities clear and consistent.
 
-The System Vision Document is usually developed before the project actually begins.
-- true
+In 6 Core processes:
 
-## System types
-The project plan is required to get the project approved.
-- false
+1. **Identify** the problem or need
+2. **Plan** and monitor the project
+  - what to do, how to do & who does rest of core processes
+3. **Analyze** and discover the details of problem or need
+4. **Design** the system components
+5. **Build / Development**, test and integrate components
+6. **Deployment** the solution
+  - Maintenance may be included
 
-A Work Breakdown Structure is the first step in building a project schedule.
-- true
+### Project Team
 
-An information system consists of:
-- Software, database, & manual processes
+- Head: Project Manager
+- Center: Quality Analyst
+- Left-Right: Business Analyst & System Analyst
+- Bottom: Designer & Developer
 
-A person that functions as an architect to plan, capture the vision, & understand the needs for a new system is often called a:
-- Systems analyst
+A system analyst is the architect captures the vision, understands the need for a new system
 
-Systems analysis is sometimes referred to as "understanding & specification."
-- true
+### System Vision Document (SVD)
 
-Systems design consists of activities to describe the solution to the problem.
-- true
+Within the 1st core process. To identify the benefits to the company and the functional capabilities that will be included in the system. The project team first reviews the System Vision Document, verifies that the preliminary work is still valid.
 
-Usually the final step in a given iteration is to deploy part of the system.
-- false
+### Approval of the project
 
-Those activities that enable a person to describe in the detail the system that solves the need is called:
-- Systems design
+Within the 1st core process. Some organizations have a formal process, some aren't
 
-When a system is partitioned into pieces, each piece is referred to as a:
-- Subsystem
+### Work breakdown structure (WBS)
 
-## Core Processes
-One approach to the SDLC can be described using five core processes.
-- false
+Within the 2nd core process. Defines what todo, how to do, & who does the rest of core processes
 
-An iteration normally only includes three or four of the core processes.
-- false
+## Development Types
 
-The first core process is to plan the project.
-- false
+### Agile / Spiral
 
-Sometimes the activities within Core Process one are completed before the actual project starts.
-- true
+Neither team members nor the users completely understand the problems and complexities, therefore:
+- The team must be responsive to unanticipated issues. The plan must be agile and flexible
+- The plan must be flexible on changes and new requirements that come up during the development
+- The 6 core processes are carried out iteratively, therefore its also called spiral
+- Effective for GUI and web solutions
+- Useful when constantly making small changes
+- Testing is not delayed
 
-Two important goals or steps within Core Process one are:
-- identify the solution objective; obtain project approval
+### Iterative
 
-Determine the major subsystems & assigning them to an iteration is done in which Core Process?
-- 2
+A project consists of many mini-projects, with each core components follow their own 6 core processes.
+- An iteration lasts a fixed period of time, usually two to four weeks
+- Iterative is a process-oriented approach that emphasizes repetition and refinement
+- In contrast, Agile is a customer-focused approach that emphasizes flexibility and collaboration
 
-Determining team members & assigning responsibilities is done in which Core Process?
-- 2
+#### 5 core processes in every iteration:
+- **Step 1 - Planning & Requirements:** In this stage, map out the initial requirements, gather the related documents, and create a plan and timeline for the first iterative cycle.
+- **Step 2 - Analysis & Design:** Finalize the business needs, database models, and technical requirements based on the plan. Create a working architecture, schematic, or algorithm that satisfies your requirements.
+- **Step 3 - Implementation:** Develop the functionality and design required to meet the specifications.
+- **Step 4 - Testing:** Identify and locate what’s not working or performing to expectations. Stakeholders, users, and product testers weigh in with their experience.
+- **Step 5 - Evaluation & Review:** Compare this iteration with the requirements and expectations.
 
-Performing in-depth fact finding to understand details is done as part of which Core Process?
-- 3
+### Waterfall / V-Model
 
-Designing the database schema is included in which Core Process?
-- 4
+The 6 core processes are carried out one by one with no going back, therefore:
+- Each step must be completed prefectly
+- Works well for centralized processing applications and procedural languages
+- Uses Data Flow Diagrams & Entity Relationship Diagrams
+- Testing is delayed
 
-Programming is included in which Core Process?
-- 5
+## Quiz
 
-Overall functional testing is included in which Core Process?
-- 6
+### Project Team
 
-## Use Case & Other Diagrams
-The purpose of a use case is to:
-- Identify a business event that requires system action
-
-Detailed design is the thought process of how to program each:
-- Use case
-
-The diagram that is most effective in describing the internal steps of a use case is:
-- A workflow diagram
-
-During analysis activities, the project team build Use Case diagram & Package diagram.
-- false
-
-The purpose of a workflow diagram is to document the internal steps of a use case.
-- true
-
-The ovals in a workflow diagram represent tasks.
-- true
-
-The database is designed using information from the class diagram.
-- true
-
-All the classes in the Design Class Diagram are used to define the database tables.
-- false
-
-A package diagram is useful to document the various subsystems in a system.
-- true
-
-In a workflow diagram, the arrows that cross the center line are used to identify what?
-- Screens & reports
-
-The purpose of a class diagram is to:
-- Document the information requirements in the new system
-
-The boxes on a class diagram can be thought of as a particular:
-- Set of objects
-
-Another name for a workflow diagram is a(n):.
-- Activity diagram
-
-To design the database schema, information from which diagram is the most important?
-- Class diagram
-
-Method signatures are included in which diagram?
-- Design class diagram
-
-A diagram that shows the overall structure of a system as it exists after it is deployed is called what?
-- Software components diagram
-
-Two of the primary elements that are included in a Work Breakdown Structure include:
-- List of tasks & estimated effort
-
-The primary difference between a work breakdown structure & a work sequence draft is that the work sequence draft shows:
-- The sequence of tasks
-
-
-
-
-What is the purpose of an iteration recap?
-- To review the project processes
-
-What is the single activity that usually requires the most time during a project?
-- Programming
-
-What is usually the end result of an iteration?
-- A piece of working code
-
-Systems analysis means understanding & specifying in detail what the information system should accomplish.
-- true
+If a defined project is determined to be feasible in the systems development life cycle (SDLC), the next step is to ________.
+- Form the project team
 
 The systems analyst's work is described as problem solving for an organization.
-- true
+- True
 
-Technology alone increases productivity & profits.
-- false
-
-The primary activity of a system developer is programming.
-- false
-
-When deciding which information system solution to recommend the analyst should recommend the one with the fewest risks & the most benefits.
-- true
-
-The difference between the system boundary & the automation boundary is that the system boundary is contained within the automation boundary.
-- false
-
-The components of an information system are the computer hardware, the computer software & the data.
-- false
+When deciding which information system solution to recommend the analyst should recommend the one with the fewest risks and the most benefits.
+- True
 
 Since business problems tend to be similar, systems analysts seldom focus on a specific business industry.
-- false
+- False
 
 Interpersonal people skills are the analysts more important skills.
-- true
+- True
 
-Due to outsourcing programming to off-shore companies in India, China, & the old Soviet Block,
-careers in information systems is not expected to be a growth industry in the future.
-- false
-
-Today the nature & types of jobs for information system graduates is more varied than ever before.
-- true
-
-Systems analysis & design focuses on understanding the business problem & outlining the approach to solve it.
-- true
-
-The primary skill required of a good systems analyst is to be able to program effectively & efficiently.
-- false
-
-The process of understanding & specifying in detail what the information system should accomplish is called systems ____.
-- Analysis
-
-Systems ____ means specifying in detail how the many components of the information system should be physically implemented.
-- Design
-
-The term "____" refers to a business professional who uses analysis & design techniques to solve business problems using information technology.
-- Systems analyst
+The primary skill required of a good systems analyst is to be able to program effectively and efficiently.
+false
 
 The text identifies three primary areas of skills that are required of a systems analyst. Which of the following is NOT one of the three?
 - Writing skills
@@ -206,128 +106,308 @@ The text identifies three primary areas of skills that are required of a systems
 The most important role of a systems analyst in business is ____.
 - Problem solving
 
-A(n) ____ includes hardware, software, inputs, outputs, data, people, & procedures.
+Which of the following is the analyst's approach to problem solving?
+- Verify that the benefits of solving the problem outweigh the costs
+- Then define the requirements for olving the problem
+
+During the requirements definition stage of developing an information system, the project team will consist mostly of ________ and ________.
+- Business analysts
+- systems analysts
+
+Dentoin Pharmaceuticals requires an information system to support its new assembly line. The management has assigned a team of ten members to plan this project. Which of the following will be the first major task for this team?
+- Defining the system goals and scope
+
+### SDLC Core proceses
+
+What is the single activity that usually requires the most time during a project?
+- Programming
+
+One approach to the SDLC can be described using five core processes.
+- False, it is always six
+
+Sometimes the activities within Core Process one are completed before the actual project starts.
+- True
+
+Systems analysis is sometimes referred to as "understanding and specification.
+- True
+
+System design consists of activities to describe the solution to the problem
+- True
+
+Systems development is always formal activity with a beginning and an end
+- False, not always formal, but with beginning and end
+
+The SDLC means Systems Design Life Cycle
+- False, D stands for development
+
+The first core process is to plan the project
+- False, to identify the problem
+
+The second core process is to plan the project
+- True
+
+The System Vision Document is usually developed before the project actually begins.
+- True
+
+The project plan is required to get the project approved.
+- False, it depends on the organization
+
+A Work Breakdown Structure is the first step in building a project schedule.
+- True
+
+Two important goals or steps within Core Process one are ____ and _____.
+- identify the solution objective
+- obtain project approval
+
+Determine the major subsystems and assigning them to an iteration is done in which Core Process?
+- 2, plan and monitor the project 
+
+Determining team members and assigning responsibilities is done in which Core Process?
+- 2, plan and monitor the project 
+
+Performing in-depth fact finding to understand details is done as part of which Core Process?
+- 3, analyze
+
+The process of understanding and specifying in detail what the information system should accomplish is called systems ____.
+- 3, analysis
+
+Systems analysis and design focuses on understanding the business problem and outlining the approach to solve it.
+- True
+
+Systems ____ means specifying in detail how the many components of the information system should be physically implemented.
+- Design
+
+The ________ phase of the systems development life cycle (SDLC) involves determining hardware and program specifications, designing the database and procedures, and creating job definitions.
+- Component design
+
+Designing the database schema is included in which Core Process?
+- 4, design
+
+Programming is included in which Core Process?
+- 5, build / development
+
+Overall functional testing is included in which Core Process?
+- 6, deployment
+
+Tasks in the ________ phase of the systems development life cycle (SDLC) are to build and test system components, and to convert users to the new system.
+- System implementation
+
+The work done during ________ phase is either to fix the system so that it works correctly or to adapt it to changes in requirements.
+- 6B, Maintainance
+
+### Diagrams
+
+#### Workflow diagram
+
+The purpose of a workflow diagram is to document the internal steps of a use case.
+- True
+
+The ovals in a workflow diagram represent tasks.
+- True
+
+Another name for a workflow diagram is a(n) _______ diagram.
+- Activity
+
+The diagram that is most effective in describing the internal steps of a use case is _______.
+- Workflow diagram
+
+In a workflow diagram, the arrows that cross the center line are used to identify what?
+- Screens and reports
+
+#### Use case diagram
+
+The database is designed using information from the class diagram.
+- True
+
+During analysis activities, the project team build Use Case diagram, and Package diagram
+- False, Use Case diagram and Class diagram
+
+The purpose of a use case is to _______.
+- Identify a business event that requires system action
+
+Detailed design is the thought process of how to program each _______.
+- Use case
+
+#### (Design) Class diagram
+
+What is the difference inbetween class diagram and design class diagram?
+- The design class diagram comes before class diagram
+- The design class only cares about top down class relationships, whereas class diagram describes class details
+
+All the classes in the Design Class Diagram are used to define the database tables
+- False, they define objects
+
+The purpose of a class diagram is to:
+- Document the information requirements in the new system
+
+The boxes on a class diagram can be thought of as a particular:
+- Set of objects
+
+To design the database schema, information from which diagram is the most important?
+- Class diagram
+
+Method signatures are included in which diagram?
+- Design class diagram
+
+#### Package diagram
+
+A package diagram is useful to document the various subsystems in a system.
+- True, it tells what &lt;&lt;use&gt;&gt;, &lt;&lt;merge&gt;&gt;, &lt;&lt;import&gt;&gt; what packages
+
+#### Software components diagram
+
+A diagram that shows the overall structure of a system as it exists after it is deployed is called what?
+software components diagram
+
+### Agile, iterative & waterfall
+
+Agile development refers to the flexibility that programmers have
+- False, the flexibility is in adding changes and requirements
+
+Iterative development is same as agile development
+- False
+- iterative is a process-oriented approach, agile is a customer-focused approach
+- each iteration in iterative is called a iteration, in agile is called a sprint
+
+An iterative development the system is grown organically.
+- True
+
+In an iterative development, an iteration suually lasts about 6 weeks
+- False, An iteration lasts a fixed period of time, usually two to four weeks
+
+Usually the final step in a given iteration is to deploy part of the system
+- False, it is Evaluation & Review in iterative development
+
+An iteration normally only includes three or four of the core processes.
+- False, it is always 5 in iterative development
+
+What is usually the end result of an iteration?
+- A piece of working code
+
+What is the purpose of an iteration recap?
+- To review the project processes
+
+### System Design
+
+An information system consists of:
+- software, database, and manual processes
+
+A person that functions as an architect to plan, capture the vision, and understand the needs for a new system is often called a:
+- Systems analyst / SA
+
+Those activities that enable a person to describe in the detail the system that solves the need is called:
+- Systems design
+
+An information system development process that emphasizes flexibility to embrace change is called":
+- Agile development
+
+When a system is partitioned into pieces, each piece is referred to as a:
+- Subsystem
+
+Systems analysis means understanding and specifying in detail what the information system should accomplish.
+- True
+
+## Others
+
+Due to outsourcing programming to off-shore companies in India, China, and the old Soviet Block,
+careers in information systems is not expected to be a growth industry in the future.
+- False, it is expected to growth
+
+Two of the primary elements that are included in a Work Breakdown Structure include:
+- List of tasks & estimated effort
+
+The primary difference between a work breakdown structure and a work sequence draft is that the work sequence draft shows:
+- The sequence of tasks
+
+Technology alone increases productivity and profits.
+- False
+
+The primary activity of a system developer is programming.
+- False
+
+The difference between the system boundary and the automation boundary is that the system boundary is contained within the automation boundary.
+- False
+
+The components of an information system are the computer hardware, the computer software and the data.
+- False
+
+Today the nature and types of jobs for information system graduates is more varied than ever before.
+- True
+
+# Types of systems
+
+A(n) ____ includes hardware, software, inputs, outputs, data, people, and procedures.
 - Information system
 
 ____ refers to the division of a system into processes or subsystems.
 - Functional decomposition
 
 An automation boundary is best described as the separation between the ____.
-- Automated part of a system & the manual part of a system
+- Automated part of a system and the manual part of a system
 
-Support systems that allow employees to communicate with each other & with customers & suppliers are called ____.
+Support systems that allow employees to communicate with each other and with customers and suppliers are called ____.
 - Collaboration support systems (CSS)
 
-Which of the following is the analyst's approach to problem solving?
-verify that the benefits of solving the problem outweigh the costs, then define the requirements for solving the - Problem
-
-A knowledge management system
-- Supports the storage of & access to documents within an organization
-
-A system that is subject to many external laws & regulations is a(n):
+A system that is subject to many external laws and regulations is a(n) _______.
 - Human resource management system
 
 The two systems that are externally oriented, i.e. they focus on entities outside of the organization
-- Customer relationship & supply chain management systems
+- Customer relationship and supply chain management systems
 
-A business intelligence system supports:
-- Strategic planning & executive design making
+A business intelligence system supports _______.
+- Strategic planning and executive design making
 
-Such things as how to do project planning, or how to do cost/benefit analysis, or how to conduct an interview is called:
+Such things as how to do project planning, or how to do cost/benefit analysis, or how to conduct an interview is called _______.
 - Techniques
 
 Understanding the way an organization performs its procedures is what kind of skill area?
-- Business skills
+- business skills
 
-Highly integrated systems that support company-wide operations & data, often combining aspects of many other systems is a(n) ____.
-enterprise resource planning application
+Highly integrated systems that support company-wide operations and data, often combining aspects of many other systems is a(n) ____.
+- Enterprise resource planning application
 
-## Systems development life cycle SDLC (Module 12):
-The SDLC means the Systems Design Life Cycle.
-- false
+# Module 12:
 
-The traditional process for developing information systems is:
+The traditional process for developing information systems is ________.
 - The systems development life cycle
 
-The first phase of the systems development life cycle (SDLC) is:
+The first phase of the systems development life cycle (SDLC) is ________.
 - Defining the system
 
-The final phase of the systems development life cycle (SDLC) is:
+The final phase of the systems development life cycle (SDLC) is ________.
 - Maintaining the system
 
 The project plan which results from defining the system is the input to ________, which is the second phase of the SDLC.
-- Requirements analysis
+requirements analysis
 
-The first step in the system definition phase of the systems development life cycle (SDLC) is to:
-- Define the goals & scope
+The first step in the system definition phase of the systems development life cycle (SDLC) is to ________.
+- Define the goals and scope
 
-Once the project's goals & scope have been defined, the next step in the system definition phase of the systems development life cycle (SDLC) is to:
+Once the project's goals and scope have been defined, the next step in the system definition phase of the systems development life cycle (SDLC) is to ________.
 - Assess feasibility
 
 Which of the following are the dimensions of feasibility?
-- Cost, schedule, technical, & organizational feasibility
+cost, schedule, technical, and organizational feasibility
 
-Organizational feasibility concerns:
+Organizational feasibility concerns ________.
 - Whether the new system fits within the organization's customs or legal requirements
 
-If a defined project is determined to be feasible in the systems development life cycle (SDLC), the next step is to:
-- Form the project team
-
-During the requirements definition stage of developing an information system, the project team will consist mostly of:
-- Business & systems analysts
-
-Dentoin Pharmaceuticals requires an information system to support its new assembly line.<br>
-The management has assigned a team of ten members to plan this project.<br>
-Which of the following will be the first major task for this team?
-- Defining the system goals & scope
-
-ACES is a quality auditing firm.<br>
-It has dedicated a team of managers, business analysts, & system analysts to develop an information system that receives data & produces quarterly reports that grade companies on their quality rating.<br>
-The team is using the five-phase systems development life cycle (SDLC) to develop this information system.<br>
-During which of the following phases will the team identify what kind of reports need to be produced & how frequently?
-- Requirements analysis
-
-The ________ phase of the systems development life cycle (SDLC) involves determining hardware & program specifications, designing the database & procedures, & creating job definitions.
-- Component design
-
-Tasks in the ________ phase of the systems development life cycle (SDLC) are to build & test system components, & to convert users to the new system.
-- System implementation
-
-A(n) ________ is a formal description of a system's response to use & misuse scenarios.
+A(n) ________ is a formal description of a system's response to use and misuse scenarios.
 - Test plan
 
-During the system implementation phase of the systems development life cycle (SDLC), once a system has passed testing, the organization installs the new system. Which of the following terms is used to refer to this activity?
+## Core process 6 - System implementation phase
+
+During implementation phase, once a system has passed testing, the organization installs the new system. Which of the following terms is used to refer to this activity?
 - System conversion
 
-In the system implementation phase of the systems development life cycle (SDLC), with ________ installation, the organization implements the entire new system/business processes on a limited portion of the business.
+During implementation phase, with ________ installation, the organization implements the entire new system/business processes on a limited portion of the business.
 - Pilot
 
-In the system implementation phase of the systems development life cycle (SDLC), with ________ installation, the new system runs alongside the old one until it has been tested & is fully operational.
+During implementation phase, with ________ installation, the new system runs alongside the old one until it has been tested and is fully operational.
 - Parrallel
 
-In the context of system implementation phase of the systems development life cycle (SDLC), a ________ installation is the riskiest because the old system is shut down & the new system is introduced.
+During implementation phase,  a ________ installation is the riskiest because the old system is shut down and the new system is introduced.
 - Plunge
 
-In the system implementation phase of the systems development life cycle (SDLC), with the ________ installation, the organization installs the next piece of the system only after the previous piece works.
+During implementation phase, with the ________ installation, the organization installs the next piece of the system only after the previous piece works.
 - Phased
-
-The work done during ________ phase is either to fix the system so that it works correctly or to adapt it to changes in requirements.
-- Maintence
-
-The systems development life cycle is the traditional process used to develop information systems & applications.
-- true
-
-The process of assessing a project's feasibility occurs during the component design phase of the systems development life cycle (SDLC).
-- false
-
-Unlike business analysts, systems analysts work more with managers & executives.
-- false
-
-Systems analysts integrate the work of programmers, testers, & users.
-- true
-
-A project team that develops an information system (IS) will comprise business & systems analysts during the requirements definition phase.
-- true
-
-User involvement is critical throughout the system development process.
-- true
