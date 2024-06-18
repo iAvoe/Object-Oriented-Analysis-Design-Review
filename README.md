@@ -12,15 +12,16 @@ A planned undertaking / endeavor that has a beginning and end, and produces end 
 
 To better manage a project by making things / activities clear and consistent.
 
-The 6 SDLC Core processes:
+The 6 SDLC Core processes (in use case Verb-noun style):
 
-1. **Identify** the problem or need
-2. **Plan** and monitor the project
+1. **Identify** problem
+2. **Plan** and monitor project
   - what to do, how to do & who does rest of core processes
-3. **Analyze** and discover the details of problem or need
-4. **Design** the system components
-5. **Build / Development**, test and integrate components
-6. **Deployment** the solution
+3. **Analyze** details
+4. **Design** components
+5. **Build / Develop** solution
+  - including test and integrate components
+6. **Deploy / Implement** solution
   - Maintenance may be included
 
 ### Project Team
@@ -121,6 +122,15 @@ Dentoin Pharmaceuticals requires an information system to support its new assemb
 
 ### SDLC Core proceses
 
+The traditional process for developing information systems is:
+- The systems development life cycle
+
+The first phase of the systems development life cycle (SDLC) is:
+- Defining the system
+
+The final phase of the systems development life cycle (SDLC) is:
+- Maintaining the system
+
 Core Process 3 involves defining in great detail what the information system needs to accomplish in order to provide the organization with the desired benefits.​
 - True, analyze
 
@@ -180,15 +190,6 @@ Performing in-depth fact finding to understand details is done as part of which 
 The process of understanding and specifying in detail what the information system should accomplish is called:
 - 3, analyze
 
-Systems analysis and design focuses on understanding the business problem and outlining the approach to solve it.
-- True
-
-____ means specifying in detail how the many components of the information system should be physically implemented.
-- Systems Design
-
-The ________ phase of the systems development life cycle (SDLC) involves determining hardware and program specifications, designing the database and procedures, and creating job definitions.
-- Component design
-
 Designing the database schema is included in which Core Process?
 - 4, design
 
@@ -202,7 +203,7 @@ Tasks in the ________ phase of the systems development life cycle (SDLC) are to 
 - System implementation
 
 The work done during ________ phase is either to fix the system so that it works correctly or to adapt it to changes in requirements.
-- 6B, Maintainance
+- 6+, Maintainance
 
 -----
 
@@ -242,8 +243,8 @@ Detailed design is the thought process of how to program each _______.
 #### (Design) Class diagram
 
 What is the difference inbetween class diagram and design class diagram?
-- The design class diagram comes before class diagram
-- The design class only cares about top down class relationships, whereas class diagram describes class details
+- Design class diagram (core process 4) comes before class diagram
+- Design class diagram require no class attributes, as it only cares about global scope class relationships
 
 All the classes in the Design Class Diagram are used to define the database tables
 - False, they define objects
@@ -302,7 +303,19 @@ What is the purpose of an iteration recap?
 
 -----
 
-### System Design
+#### SDLC - Process 3-4 - Analyze & Design
+
+Systems analysis means understanding and specifying in detail what the information system should accomplish.
+- True
+
+Systems analysis and design focuses on understanding the business problem and outlining the approach to solve it.
+- True
+
+____ means specifying in detail how the many components of the information system should be physically implemented.
+- Systems Design
+
+The ________ phase of the systems development life cycle (SDLC) involves determining hardware and program specifications, designing the database and procedures, and creating job definitions.
+- Component design
 
 An information system consists of:
 - software, database, and manual processes
@@ -319,15 +332,11 @@ An information system development process that emphasizes flexibility to embrace
 When a system is partitioned into pieces, each piece is referred to as a:
 - Subsystem
 
-Systems analysis means understanding and specifying in detail what the information system should accomplish.
-- True
-
 -----
 
 ## Others
 
-Due to outsourcing programming to off-shore companies in India, China, and the old Soviet Block,
-careers in information systems is not expected to be a growth industry in the future.
+Due to outsourcing programming to off-shore companies in India, China, and the old Soviet Block, careers in information systems is not expected to be a growth industry in the future.
 - False, it is expected to growth
 
 Two of the primary elements that are included in a Work Breakdown Structure include:
@@ -368,35 +377,28 @@ Support systems that allow employees to communicate with each other and with cus
 - Collaboration support systems (CSS)
 
 A system that is subject to many external laws and regulations is a(n) _______.
-- Human resource management system
+- Human resource management system (HRMS)
 
 The two systems that are externally oriented, i.e. they focus on entities outside of the organization
-- Customer relationship and supply chain management systems
+- Customer relationship system (CRS)
+- Supply chain management systems (SCMS)
 
-A business intelligence system supports _______.
-- Strategic planning and executive design making
+A business intelligence system (BI) supports _______.
+- Strategic planning
+- Executive design making
 
-Such things as how to do project planning, or how to do cost/benefit analysis, or how to conduct an interview is called _______.
+Highly integrated systems that support company-wide operations and data, often combining aspects of many other systems is a(n):
+- Enterprise resource planning system / application (ERP system)
+
+Such things as how to do project planning, or how to do cost/benefit analysis, or how to conduct an interview is called:
 - Techniques
 
 Understanding the way an organization performs its procedures is what kind of skill area?
-- business skills
-
-Highly integrated systems that support company-wide operations and data, often combining aspects of many other systems is a(n) ____.
-- Enterprise resource planning application
+- Business skills
 
 -----
 
 # Module 12:
-
-The traditional process for developing information systems is ________.
-- The systems development life cycle
-
-The first phase of the systems development life cycle (SDLC) is ________.
-- Defining the system
-
-The final phase of the systems development life cycle (SDLC) is ________.
-- Maintaining the system
 
 The project plan which results from defining the system is the input to ________, which is the second phase of the SDLC.
 requirements analysis
@@ -404,13 +406,13 @@ requirements analysis
 The first step in the system definition phase of the systems development life cycle (SDLC) is to ________.
 - Define the goals and scope
 
-Once the project's goals and scope have been defined, the next step in the system definition phase of the systems development life cycle (SDLC) is to ________.
+Once the project's goals and scope have been defined, the next step in the system definition phase of the systems development life cycle (SDLC) is to:
 - Assess feasibility
 
 Which of the following are the dimensions of feasibility?
 cost, schedule, technical, and organizational feasibility
 
-Organizational feasibility concerns ________.
+Organizational feasibility concerns:
 - Whether the new system fits within the organization's customs or legal requirements
 
 A(n) ________ is a formal description of a system's response to use and misuse scenarios.
