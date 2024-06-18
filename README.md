@@ -147,7 +147,7 @@ Systems development is always formal activity with a beginning and an end
 - False, not always formal, but with beginning and end
 
 The SDLC means Systems Design Life Cycle
-- False, D stands for development
+- False, Development
 
 The first core process is to plan the project
 - False, to identify the problem
@@ -165,8 +165,8 @@ A Work Breakdown Structure is the first step in building a project schedule.
 - True
 
 Two important goals or steps within Core Process one are ____ and _____.
-- identify the solution objective
-- obtain project approval
+- Identify the solution objective
+- Obtain project approval
 
 Determine the major subsystems and assigning them to an iteration is done in which Core Process?
 - 2, plan and monitor the project 
@@ -177,14 +177,14 @@ Determining team members and assigning responsibilities is done in which Core Pr
 Performing in-depth fact finding to understand details is done as part of which Core Process?
 - 3, analyze
 
-The process of understanding and specifying in detail what the information system should accomplish is called systems ____.
-- 3, analysis
+The process of understanding and specifying in detail what the information system should accomplish is called:
+- 3, analyze
 
 Systems analysis and design focuses on understanding the business problem and outlining the approach to solve it.
 - True
 
-Systems ____ means specifying in detail how the many components of the information system should be physically implemented.
-- Design
+____ means specifying in detail how the many components of the information system should be physically implemented.
+- Systems Design
 
 The ________ phase of the systems development life cycle (SDLC) involves determining hardware and program specifications, designing the database and procedures, and creating job definitions.
 - Component design
@@ -208,7 +208,10 @@ The work done during ________ phase is either to fix the system so that it works
 
 ### Diagrams
 
-#### Workflow diagram
+#### Workflow Diagram / Activity Diagram
+
+Another name for a workflow diagram is a(n) _______ diagram.
+- Activity
 
 The purpose of a workflow diagram is to document the internal steps of a use case.
 - True
@@ -216,11 +219,8 @@ The purpose of a workflow diagram is to document the internal steps of a use cas
 The ovals in a workflow diagram represent tasks.
 - True
 
-Another name for a workflow diagram is a(n) _______ diagram.
-- Activity
-
 The diagram that is most effective in describing the internal steps of a use case is _______.
-- Workflow diagram
+- Workflow diagram / Activity diagram
 
 In a workflow diagram, the arrows that cross the center line are used to identify what?
 - Screens and reports
@@ -258,17 +258,17 @@ To design the database schema, information from which diagram is the most import
 - Class diagram
 
 Method signatures are included in which diagram?
-- Design class diagram
+- Design class diagram (class diagram only have class names)
 
 #### Package diagram
 
 A package diagram is useful to document the various subsystems in a system.
 - True, it tells what &lt;&lt;use&gt;&gt;, &lt;&lt;merge&gt;&gt;, &lt;&lt;import&gt;&gt; what packages
 
-#### Software components diagram
+#### Package diagram - Software components diagram
 
 A diagram that shows the overall structure of a system as it exists after it is deployed is called what?
-software components diagram
+- Software components diagram
 
 -----
 
@@ -282,14 +282,14 @@ Iterative development is same as agile development
 - iterative is a process-oriented approach, agile is a customer-focused approach
 - each iteration in iterative is called a iteration, in agile is called a sprint
 
-An iterative development the system is grown organically.
+In iterative development, the system is grown organically.
 - True
 
-In an iterative development, an iteration suually lasts about 6 weeks
-- False, An iteration lasts a fixed period of time, usually two to four weeks
+In an iterative development, an iteration usually lasts about 6 weeks
+- False, usually 2-4 weeks
 
 Usually the final step in a given iteration is to deploy part of the system
-- False, it is Evaluation & Review in iterative development
+- False, it is Evaluation & Review
 
 An iteration normally only includes three or four of the core processes.
 - False, it is always 5 in iterative development
@@ -307,7 +307,7 @@ What is the purpose of an iteration recap?
 An information system consists of:
 - software, database, and manual processes
 
-A person that functions as an architect to plan, capture the vision, and understand the needs for a new system is often called a:
+A person that functions as an architect to plan, capture the vision, and understand the needs for a new system is:
 - Systems analyst / SA
 
 Those activities that enable a person to describe in the detail the system that solves the need is called:
