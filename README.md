@@ -82,7 +82,7 @@ The 6 core processes are carried out one by one with no going back, therefore:
 
 ### Project Team
 
-If a defined project is determined to be feasible in the systems development life cycle (SDLC), the next step is to ________.
+If a defined project is determined to be feasible in the systems development life cycle (SDLC), the next step is to:
 - Form the project team
 
 The systems analyst's work is described as problem solving for an organization.
@@ -92,13 +92,13 @@ When deciding which information system solution to recommend the analyst should 
 - True
 
 Since business problems tend to be similar, systems analysts seldom focus on a specific business industry.
-- False
+- False, very different in details
 
 Interpersonal people skills are the analysts more important skills.
 - True
 
 The primary skill required of a good systems analyst is to be able to program effectively and efficiently.
-false
+- False, good knowledge of IT systems, collaborate with employees and department heads, create analysis reports, perform system testing
 
 The text identifies three primary areas of skills that are required of a systems analyst. Which of the following is NOT one of the three?
 - Writing skills
@@ -108,11 +108,11 @@ The most important role of a systems analyst in business is ____.
 
 Which of the following is the analyst's approach to problem solving?
 - Verify that the benefits of solving the problem outweigh the costs
-- Then define the requirements for olving the problem
+- Define the requirements for solving the problem
 
 During the requirements definition stage of developing an information system, the project team will consist mostly of ________ and ________.
 - Business analysts
-- systems analysts
+- Systems analysts
 
 Dentoin Pharmaceuticals requires an information system to support its new assembly line. The management has assigned a team of ten members to plan this project. Which of the following will be the first major task for this team?
 - Defining the system goals and scope
@@ -137,7 +137,7 @@ One approach to the SDLC can be described using five core processes.
 Sometimes the activities within Core Process one are completed before the actual project starts.
 - True
 
-Systems analysis is sometimes referred to as "understanding and specification.
+Systems analysis is sometimes referred to as understanding and specification.
 - True
 
 System design consists of activities to describe the solution to the problem
